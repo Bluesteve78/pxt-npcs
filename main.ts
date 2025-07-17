@@ -4,7 +4,7 @@ namespace chatbotNPC {
 
     //% block="set response for keyword %keyword to %response"
     export function wordbank(keyword: string): void {
-        responses[keyword.toLowerCase()] = response;
+        responses[keyword.toLowerCase()] = responses;
     }
 
     //% block="player says %playerText"
