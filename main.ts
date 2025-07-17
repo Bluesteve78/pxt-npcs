@@ -10,11 +10,10 @@ namespace chatbotNPC {
     //% block="player says %playerText"
     export function playerSays(playerText: string): void {
         let lowerText = playerText.toLowerCase();
-        let words = lowerText.split(/[\s,.!?]+/);
         let reply = "I don't understand.";
 
         for (let key in responses) {
-            if (words.includes(key)) {
+            if (lowerText.includes(key.toLowerCase())) {
                 reply = responses[key];
                 break;
             }
