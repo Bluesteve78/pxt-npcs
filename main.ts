@@ -3,7 +3,7 @@ namespace chatbotNPC {
     let responses: { [keyword: string]: string } = {};
 
     //% block="set response for keyword %keyword to %response"
-    export function setResponse(keyword: string, response: string): void {
+    export function wordbank(keyword: string): void {
         responses[keyword.toLowerCase()] = response;
     }
 
