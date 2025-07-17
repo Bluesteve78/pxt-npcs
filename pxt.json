@@ -1,0 +1,25 @@
+{
+  "name": "chatbot-npc",
+  "description": "A simple chatbot NPC extension for MakeCode with keyword-based replies.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "main.ts"
+  ],
+  "public": true,
+  "dependencies": {
+    "core": "*",
+    "game": "*"
+  },
+  "targetVersions": {
+    "branch": "main",
+    "tag": "v8.0.50"
+  },
+  "supportedTargets": [
+    "arcade"
+  ],
+  "testFiles": [
+  ],
+  "package": "github:yourgithubusername/chatbot-npc"
+}
